@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.btnDiv{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    gap: 5px;
+}
+.btnDiv > button{
+    min-width: 50px;
+    max-width: 50px;
+    padding: 20px;
+}
